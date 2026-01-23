@@ -68,3 +68,4 @@ console.log(typeof verifiedFloat);
 console.log(value1.toExponential());
 console.log(value1.toFixed(2));
 console.log(value1.toPrecision(15)); 
+
