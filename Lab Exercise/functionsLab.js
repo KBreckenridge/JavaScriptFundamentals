@@ -1,7 +1,7 @@
-function nonagonInfinity(paramOne, paramTwo = " Gizzard") {
-    return paramOne + paramTwo + "!"
-};
-console.log(nonagonInfinity("King"))
+const nonagonInfinity = function (paramOne, paramTwo) { 
+    return paramOne + paramTwo; 
+}; 
+console.log(nonagonInfinity("King ", "Gizzard"));
 
 function petroDragonicApocolypse(motor, spirit = 15){
     return motor + spirit
